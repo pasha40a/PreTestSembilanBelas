@@ -54,7 +54,6 @@ public class testCalculator {
         System.out.println("Hasil = "+calculator.getTxtResult());
         assertEquals(calculator.getTxtResult(), "12");
     }
-
     @AfterClass
     public void closeApp() {
         driver.quit();
